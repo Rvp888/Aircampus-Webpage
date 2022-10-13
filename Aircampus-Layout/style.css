@@ -1,0 +1,160 @@
+.header{
+    background-color:rgb(255, 212, 199);
+    height: 90px;
+    width: 100%;
+    position: fixed;
+    top:0;
+    left:0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+img[alt="Aircampus logo"]{
+    width: 250px;
+    height: 60px;
+    float:left;
+    margin: 13px 600px 2px 150px;
+    cursor: pointer;
+}
+
+.tags{
+    float:left;
+    font-size: 23px;
+    margin-right: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    padding: 10px;
+}
+.tags:hover{
+    background-color: rgba(247, 79, 18, 0.852);
+    border-radius: 20px;
+}
+.apply1{
+    float: right;
+    font-size: 23px;
+    font-weight: bolder;
+    color: orangered;
+    background-color: white;
+    width: 80px;
+    height: 30px;
+    margin-top: 25px;
+    margin-right: 200px;
+    border-radius: 30px;
+    text-align: center;
+    padding: 3px;
+    cursor: pointer;
+}
+.content1{
+    margin-top:200px;
+    margin-left: 550px;
+    font-size: 80px;
+}
+.content2{
+    margin-top:10px;
+    margin-left: 550px;
+    width: 780px;
+    color: aliceblue;
+    background-color: coral;
+    border-radius: 50%;
+    font-size: 80px;
+    font-family:cursive;
+    text-align: center;
+}
+.d-flex{
+    display: flex !important;
+}
+.flex-nowrap{
+    flex-wrap: nowrap !important;
+}
+.justify-content-between{
+    justify-content:space-between !important;
+}
+.braces{
+    font-size: 150px;
+    font-weight: bold;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.para1{
+    font-size: 50px;
+    line-height: 0.5;
+    text-align: center;
+}
+.para2{
+    font-size: 30px;
+    line-height: 0.5;
+    text-align: center;
+}
+.apply2{
+    font-size: 35px;
+    font-weight: bolder;
+    color: white;
+    background-color: orangered;
+    width: 140px;
+    height: 75px;
+    margin-top: 15px;
+    margin-left: 880px;
+    border-color: orangered;
+    border-radius: 10px;
+    text-align: center;
+    padding: 4px;
+    cursor: pointer;
+}
+.apply2:hover{
+    background-color: rgb(244, 15, 15);
+}
+.whatsapp{
+    background-color: orangered;
+    width: 380px;
+    height: 60px;
+    position: fixed;
+    right:5px;
+    bottom:50px;
+}
+.doubts{
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+    float:left;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+img[alt="WhatsApp logo"]{
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.batchDetails{
+    margin: 100px -10px;
+    background-color: rgba(254, 199, 209, 0.305);
+    width: 100vw;
+    height: 350px;
+}
+.batchInfo{
+    background-color: white;
+    width: 25%;
+    height: 75%;
+    border: 2px solid orangered;
+    border-radius: 10px;
+    float:left;
+    margin:40px 70px;
+}
+.p1{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.p2{
+    line-height: 0.1;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: orangered;
+}
+.p3{
+    text-align: center;
+    font-size: 25px;
+    margin: 0 60px;
+}
